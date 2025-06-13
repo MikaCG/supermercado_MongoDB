@@ -125,7 +125,7 @@ graph TD
   A[Cliente] -->|GET/POST/PUT/DELETE| B[API Supermercado]
   B --> C[(MongoDB - supermercado.supermercado)]
 ```
-<a href="https://mermaid.live/edit#pako:eNpNj1FrgzAQx79KuKcNrE1qjJqHQasyBhsr1L1M-xCaTGU1kVRhm-13XyyM9eW4H3e_-3MTHIxUwKG2om9QkVUaoXWZHlulB7VHi8XD-TEvltvXnStvxTLLn_MiP6NNud4-od3YK9spexDS7Gd1MxsoLe9ejK5N5hCdbnb8W7h3xuyA59JbCXywo_LATTsxI0zztIKhUZ2qgLtWCvtZQaUvzumFfjem-9OsGesG-Ic4nhyNvRSDylrh_vpfUVoqm5pRD8ADcj0BfIKvmQIfM5bEUZKsCIuZB9_Aw9CPo4jGBDNCCKYJvXjwcw3FfhRiGq9CRgMcBjSILr8XL2Wu" target="_blank">Visitar ermaid Live</a>
+<a href="https://mermaid.live/edit#pako:eNpNj1FrgzAQx79KuKcNrE1qjJqHQasyBhsr1L1M-xCaTGU1kVRhm-13XyyM9eW4H3e_-3MTHIxUwKG2om9QkVUaoXWZHlulB7VHi8XD-TEvltvXnStvxTLLn_MiP6NNud4-od3YK9spexDS7Gd1MxsoLe9ejK5N5hCdbnb8W7h3xuyA59JbCXywo_LATTsxI0zztIKhUZ2qgLtWCvtZQaUvzumFfjem-9OsGesG-Ic4nhyNvRSDylrh_vpfUVoqm5pRD8ADcj0BfIKvmQIfM5bEUZKsCIuZB9_Aw9CPo4jGBDNCCKYJvXjwcw3FfhRiGq9CRgMcBjSILr8XL2Wu" target="_blank">Visitar Mermaid Live</a>
 
 ## 🧪 Recomendaciones para pruebas
 * Usar Postman o Insomnia para probar fácilmente los endpoints.
