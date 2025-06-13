@@ -24,5 +24,37 @@ API desarrollada con **Node.js**, **Express.js** y **MongoDB** para gestionar el
 1. Clona el repositorio y entra en la carpeta del proyecto:
 
 ```bash
-git clone https://github.com/tu-usuario/supermercado-api.git
+git clone https://github.com/MikaCG/supermercado_MongoDB.git
 cd supermercado_MongoDB
+```
+2. Instala las dependencias:
+
+```bash
+npm install
+```
+
+3. Crea un archivo .env en la raíz del proyecto con la siguiente variable:
+```bash
+PORT=3008
+MONGODB_URLSTRING=tu_uri_de_mongodb
+```
+
+4. Ejecuta el servidor:
+```bash
+node server.js
+```
+
+## 📁 Estructura del Proyecto
+La estructura del proyecto es la siguiente:
+```bash
+supermercado_MongoDB/
+│
+├── node_modules/
+├── src/
+│   └── mongodb.js            # Lógica de conexión a MongoDB
+│
+├── .env                      # Variables de entorno (URI y puerto)
+├── package.json
+├── package-lock.json
+└── server.js                 # Definición del servidor y rutas
+```
