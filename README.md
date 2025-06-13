@@ -34,7 +34,7 @@ npm install
 ```
 
 3. Crea un archivo .env en la raíz del proyecto con la siguiente variable:
-```bash
+```ini
 PORT=3008
 MONGODB_URLSTRING=tu_uri_de_mongodb
 ```
