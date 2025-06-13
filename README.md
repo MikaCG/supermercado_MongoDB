@@ -100,3 +100,21 @@ fetch("http://localhost:3008/productos", {
   })
 });
 ```
+
+## ✏️ Actualizar un producto por código
+```bash
+PUT http://localhost:3008/productos/codigo/1234
+```
+
+Cuerpo JSON ejemplo:
+```json
+{
+  "precio": 7.99,
+  "categoria": "Almacén"
+}
+```
+
+## 🗑️ Eliminar un producto por código
+```bash
+DELETE http://localhost:3008/productos/codigo/1234
+```
