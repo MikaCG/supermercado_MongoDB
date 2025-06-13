@@ -58,3 +58,32 @@ supermercado_MongoDB/
 ├── package-lock.json
 └── server.js                 # Definición del servidor y rutas
 ```
+
+## 🔍 Ejemplos de uso
+🧾 Obtener todos los productos
+```bash
+GET http://localhost:3008/productos
+```
+
+🔍 Buscar producto por código
+```bash
+GET http://localhost:3008/productos/codigo/1234
+```
+
+🔍 Buscar por categoría (sin distinción de mayúsculas o acentos)
+```bash
+GET http://localhost:3008/productos/categoria/lacteos
+```
+
+## ➕ Crear un nuevo producto
+Requiere:
+*nombre: string
+*precio: number
+*categoria: string
+
+Ejemplo con curl:
+```bash
+curl -X POST http://localhost:3008/productos \
+  -H "Content-Type: application/json" \
+  -d '{"nombre": "Galletitas", "precio": 2.99, "categoria": "Comestible"}'
+```
