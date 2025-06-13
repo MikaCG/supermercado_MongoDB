@@ -131,5 +131,5 @@ graph TD
 * Probar búsquedas por categoría con variantes de mayúsculas y acentos (ej. "LÁCTEOS", "lacteos", "Lacteós").
 
 ## 📣 Créditos
-📌 Micaela Cajal Gallardo
-🧠 Desarrollado de la pre-entrega 02 para prácticas de API REST con Node.js, Express y MongoDB.
+📌 Micaela Cajal Gallardo.
+🧠 Desarrollado de la pre-entrega 02 para practicar la API RESTful utilizando Node.js, Express y MongoDB.
