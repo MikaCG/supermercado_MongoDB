@@ -132,4 +132,5 @@ graph TD
 
 ## 📣 Créditos
 📌 Micaela Cajal Gallardo.
+
 🧠 Desarrollado de la pre-entrega 02 para practicar la API RESTful utilizando Node.js, Express y MongoDB.
