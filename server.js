@@ -18,8 +18,46 @@ app.use((req, res, next) => {
 });
 
 // Ruta principal
-app.get('/', (req, res) => {
+/* app.get('/', (req, res) => {
     res.status(200).send("Bienvenido a la API de Supermercado");
+}); */
+app.get('/', (req, res) => {
+    // Le decimos explícitamente al navegador que el tipo de contenido es HTML.
+  res.header('Content-Type', 'text/html; charset=utf-8');
+    res.send(`
+      <!DOCTYPE html>
+      <html lang="es">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>API Supermercado</title>
+        <style>
+          body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f4f4; color: #333; text-align: center; padding: 40px; margin: 0; }
+          .container { background-color: #fff; padding: 40px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
+          h1 { color: #28a745; font-size: 3em; margin-bottom: 10px; }
+          h1 .icon { font-size: 0.8em; }
+          h2 { color: #555; font-size: 1.8em; margin-top: 0; }
+          p { color: #777; font-size: 1.1em; max-width: 500px; margin: 20px auto; }
+          .footer { margin-top: 30px; font-size: 0.9em; color: #999; }
+          a { color: #007bff; text-decoration: none; }
+          a:hover { text-decoration: underline; }
+        </style>
+      </head>
+      <body>
+        <div class="container">
+          <h1><span class="icon">🛒</span> API Supermercado <span class="icon">🛍️</span></h1>
+          <h2>¡API de gestión de inventario funcionando!</h2>
+          <p>
+            Utiliza esta API para consultar, agregar, modificar y eliminar productos.
+            Prueba el endpoint <a href="/productos">/productos</a> para empezar.
+          </p>
+          <div class="footer">
+            Hecho con Node.js, Express y MongoDB
+          </div>
+        </div>
+      </body>
+      </html>
+    `);
 });
 
 app.get('/acerca-de', (req, res) => {
