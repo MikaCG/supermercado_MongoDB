@@ -87,3 +87,16 @@ curl -X POST http://localhost:3008/productos \
   -H "Content-Type: application/json" \
   -d '{"nombre": "Galletitas", "precio": 2.99, "categoria": "Comestible"}'
 ```
+
+Ejemplo en JavaScript (fetch):
+```js
+fetch("http://localhost:3008/productos", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    nombre: "Yerba Mate",
+    precio: 4.5,
+    categoria: "Infusiones"
+  })
+});
+```
