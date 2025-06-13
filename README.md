@@ -77,9 +77,9 @@ GET http://localhost:3008/productos/categoria/lacteos
 
 ## ➕ Crear un nuevo producto
 Requiere:
-*nombre: string
-*precio: number
-*categoria: string
+* nombre: string
+* precio: number
+* categoria: string
 
 Ejemplo con curl:
 ```bash
