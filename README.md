@@ -118,3 +118,18 @@ Cuerpo JSON ejemplo:
 ```bash
 DELETE http://localhost:3008/productos/codigo/1234
 ```
+
+## 📊 Diagrama de Flujo
+```mermaid
+graph TD
+  A[Cliente] -->|GET/POST/PUT/DELETE| B[API Supermercado]
+  B --> C[(MongoDB - supermercado.supermercado)]
+```
+
+## 🧪 Recomendaciones para pruebas
+* Usar Postman o Insomnia para probar fácilmente los endpoints.
+* Probar búsquedas por categoría con variantes de mayúsculas y acentos (ej. "LÁCTEOS", "lacteos", "Lacteós").
+
+## 📣 Créditos
+📌 Micaela Cajal Gallardo
+🧠 Desarrollado de la pre-entrega 02 para prácticas de API REST con Node.js, Express y MongoDB.
