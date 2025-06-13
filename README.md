@@ -130,7 +130,7 @@ graph TD
 * Usar Postman o Insomnia para probar fácilmente los endpoints.
 * Probar búsquedas por categoría con variantes de mayúsculas y acentos (ej. "LÁCTEOS", "lacteos", "Lacteós").
 
-## 📣 Créditos
+## 📣 Crédito
 📌 Micaela Cajal Gallardo.
 
 🧠 Desarrollado de la pre-entrega 02 para practicar la API RESTful utilizando Node.js, Express y MongoDB.
